@@ -23,14 +23,14 @@ var contactForm = {
   firstName: "",
   lastName: "",
   email: ""
-];
+};
 
 var App = React.createClass({
   render: function() {
     return (
       <div className={"app"}>
-        <contactForm contact={contactForm} />
-        <Contacts item={contacts} />
+        <ContactForm contact={contactForm} />
+        <Contacts items={contacts} />
       </div>
     );
   }
