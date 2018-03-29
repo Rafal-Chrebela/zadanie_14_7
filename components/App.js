@@ -17,7 +17,7 @@ var contacts = [
     lastName: "Koziol",
     email: "zbigniew.koziol@example.com"
   }
-];
+};
 
 var contactForm = {
   firstName: "",
